@@ -24,13 +24,16 @@ const initialExpenses = [
 ];
 
 function App() {
-  const [result, setResult] = useState(initialExpenses);
-  console.log(result, setResult);
+  const [expenses, setExpenses] = useState(initialExpenses);
+
   return (
     <>
       <Alert />
-      <ExpenseForm />
-      <ExpenseList />
+      <h1>Budget Calculator</h1>
+      <main className="App">
+        <ExpenseForm />
+        <ExpenseList />
+      </main>
     </>
   );
 }
