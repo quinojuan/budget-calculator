@@ -1,5 +1,7 @@
-const ExpenseItem = () => {
-  return <div>Hello from ExpenseItem</div>;
+const ExpenseItem = ({ expense }) => {
+  return <>
+  <p>Some</p>
+  </>;
 };
 
 export default ExpenseItem;
